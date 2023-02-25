@@ -35,11 +35,11 @@ body{
     border-radius: 25px;
 }
 #GalHead{
-    grid-column: 3 / span 2;
+    grid-row: 2;
     text-align: center;
 }
 #GalImg{
-    grid-column: 1 / span 2;
+    grid-row: 1;
     padding: 10px;
 }
 #Ach{
@@ -53,11 +53,11 @@ body{
     border-radius: 25px;
 }
 #AchHead{
-    grid-column: 3 / span 2;
+    grid-row: 2;
     text-align: center;
 }
 #AchImg{
-    grid-column: 1 / span 2;
+    grid-row: 1;
     padding: 10px;
 }
 #Me{
@@ -70,11 +70,11 @@ body{
     border-radius: 25px;
 }
 #MeHead{
-    grid-column: 1 / span 2;
+    grid-row: 2;
     text-align: center;
 }
 #MeImg{
-    grid-column: 4;
+    grid-row: 1;
     padding: 10px;
 }
 #MeMain{
@@ -138,13 +138,11 @@ body{
     border-radius: 25px;
 }
 #NAITPrg{
-    grid-column: 1;
     text-align: center;
-    grid-row: 1;
+    grid-row: 2;
     font-size: x-large;
 }
 #NAITImg{
-    grid-column: 2;
     padding: 10px;
     grid-row: 1;
 }
