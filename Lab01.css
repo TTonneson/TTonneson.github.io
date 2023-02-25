@@ -205,10 +205,12 @@ img{
     #AchHead{
         grid-column: 2 / span 2;
         text-align: center;
+        grid-row: 1;
     }
     #AchImg{
         grid-column: 1;
         padding: 10px;
+        grid-row: 1;
     }
     #Me{
         padding: 10px;
@@ -276,7 +278,15 @@ img{
         padding: 10px;
         grid-row: 1;
     }
-
-    /*dont forgor to use diplay:flex to be able ot justifgy content to center images*/
-
+    #NAITPrg{
+        text-align: center;
+        grid-row: 1;
+        font-size: x-large;
+        grid-column: 1;
+    }
+    #NAITImg{
+        padding: 10px;
+        grid-row: 1;
+        grid-column: 2;
+    }
 }
